@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-interface GamificationState {
+export interface GamificationState {
   enabled: boolean;
 }
 

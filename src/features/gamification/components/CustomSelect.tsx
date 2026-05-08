@@ -13,7 +13,6 @@ import {
 interface Props {
   placeholder: string;
   options: string[];
-  value?: string;
   onChange: (val: string) => void;
   disabledOptions?: string[];
 }
@@ -29,7 +28,6 @@ const durations = [
 export default function CustomSelect({
   placeholder,
   options,
-  value,
   onChange,
   disabledOptions = [],
 }: Props) {

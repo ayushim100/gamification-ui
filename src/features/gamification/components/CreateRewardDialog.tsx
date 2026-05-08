@@ -76,7 +76,6 @@ export default function CreateRewardDialog({ open, onOpenChange }: Props) {
                 "Posts X times every Y period",
                 "Is Onboarded",
               ]}
-              value={event}
               onChange={(val) => setEvent(val)}
             />
           </div>
@@ -97,7 +96,6 @@ export default function CreateRewardDialog({ open, onOpenChange }: Props) {
                   ? ["Upgrade Commission Tier"]
                   : []
               }
-              value={reward}
               onChange={(val) => setReward(val)}
             />
           </div>
